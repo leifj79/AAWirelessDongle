@@ -5,8 +5,8 @@
 ################################################################################
 
 ### Change here for more memory/cores ###
-VM_MEMORY=32768
-VM_CORES=14
+VM_MEMORY=4096
+VM_CORES=8
 
 Vagrant.configure('2') do |config|
 	config.vm.box = 'ubuntu/jammy64'
